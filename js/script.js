@@ -10,7 +10,7 @@
   var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   /* ── WHATSAPP: troque o número em um lugar só ── */
-  var WPP = '5511995288898';
+  var WPP = '551122251883';
   $$('a[href*="wa.me/"]').forEach(function (a) {
     a.href = a.href.replace(/wa\.me\/\d+/, 'wa.me/' + WPP);
   });
